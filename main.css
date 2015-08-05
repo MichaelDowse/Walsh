@@ -3,7 +3,7 @@ body {
   display: table;
   width: 100%;
   position: 0;
-  background: url(background2.jpg) no-repeat center -170px;
+  background: url(background3.jpg) no-repeat center 50px;
 /*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
@@ -11,6 +11,24 @@ body {
   line-height: 130%;
   font-family: "Lato";
   padding-top: 70px;
+}
+
+.fa {
+  padding-right: 10px;
+}
+
+.btn-lg {
+  width: 100%;
+}
+
+.btn-primary.facebook {
+  background-color: #4862a3;
+  border-color: #4862a3;
+}
+
+.btn-primary.twitter {
+  background-color: #55acee;
+  border-color: #55acee;
 }
 
 h1 {
@@ -24,10 +42,25 @@ h1 {
   margin-top: -40px;
 }
 
+.hero {
+  min-height: 200px;
+}
+
 p, li {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.panel.panel-primary {
+  border-color: #5a3d8b;
+}
+
+.panel.panel-primary .panel-heading {
+  background-color: #5a3d8b;
+  border-color: #5a3d8b;
+}
+
+
 
 .container {
   margin: 0 auto;
