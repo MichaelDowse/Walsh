@@ -8,7 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,7 +18,35 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#header_nav">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header_nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Walsh 50</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="header_nav">
+          <ul class="nav navbar-nav">
+            <li><a href="#event">Event</a></li>
+            <li><a href="#merch">Merchandise</a></li>
+            <li><a href="#gettingthere">Getting there</a></li>
+            <li><a href="#accommodation">Accommodation</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+
     <div class="container" style="text-align: center;">
       <div class="row">
         <div class="col-md-offset-1 col-md-10 text-center">
@@ -34,7 +62,7 @@
       
         <div class="row">
           <div class="col-md-9">
-            <div class="page-header">
+            <div class="page-header" id="event">
               <h2>What to expect</h2>
             </div>
             
@@ -53,13 +81,18 @@
             <h3>Evening function</h3>
             
             <p>The evening function will be held at Hobbiton!  You'll be transported to The Shire, given a guided tour, a complimentary beverage and food. Your ticket includes transport as it is not possible to drive to the venue. To help us with transport logistics, later in the year we will ask you where you're staying.</p>
-            
-            <h3>Merchandise</h3>
+
+            <br />
+            <div class="page-header" id="merch">
+              <h2>Merchandise</h2>
+            </div>
             
             <p>A commemoration booklet is available for purchase at the time of registration for pickup on the day. T-shirts, polo shirts and a hat are also available for pre purchase until mid November, then they'll be printed and sent to you before Christmas.  A limited amount of merchandise will be available to purchase on the day.</p>
             
             <br />
-            <h3>Getting there</h3>
+            <div class="page-header" id="gettingthere">
+              <h2>Getting there</h2>
+            </div>
             
             <p><strong>By car</strong></p>
             <p>Parking will be provided at the airfield for the day event.</p>
@@ -69,7 +102,9 @@
             <p>Air New Zealand - the closest serviced airports to Matamata are Hamilton and Tauranga.</p>
 
             <br />
-            <h3>Accommodation</h3>
+            <div class="page-header" id="accommodation">
+              <h2>Accommodation</h2>
+            </div>
             
             <p>As the 50th school will be taking place at the same time as the 50th celebrations we are unable to offer accommodation at the airfield. There is limited accommodation available in the area, and to make it easy please secure your bed in either Matamata or Cambridge, Hamilton will be our third option (this is to make Hobbiton logistics easier).</p>
             
@@ -79,7 +114,9 @@
 
             <br />
 
-            <h3>Frequently Asked Questions</h3>
+            <div class="page-header" id="faq">
+              <h2>Frequently Asked Questions</h2>
+            </div>
             <br>
             <h4><strong>I have limited mobility (elderly, walking stick, wheelchair), is there much walking during the Hobbiton tour?</strong></h4>
             <p>The tour takes approximately 45 minutes, of which you'll need to be standing and walking on sometimes uneven ground. There's also a small hill to walk over. If you think you're not able to do this, Hobbiton offer the tour from a golf cart. Just let us know if that's more like you.</p>
@@ -155,6 +192,9 @@
             </div>
           </div>
         </div>
+        <br>
+        <br>
+        
         <a class="photo_attribution" href="https://plus.google.com/photos/114796047284467586181/albums/5837207536232167601?banner=pwa&authkey=CPTBxcKprNvN5AE">Photo taken by Dave Jupp at Walsh 2013</a>
         
       </div>
